@@ -1,0 +1,55 @@
+.navbar-toggler {
+
+background-color: white !important;
+
+
+}
+
+.cardStyles {
+    min-height: 200px;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.bgc {
+background-color: #28666E;
+min-height: 10vh;
+}
+
+.footercolour {
+
+    background-color: #212529;
+    max-height: 5vh;
+}
+
+.titlefix
+{
+
+    min-height: 0.1rem;
+}
+
+.btn-primary {
+
+    --bs-btn-bg: #FEDC97;
+    --bs-btn-border-color: #B5B682;
+    --bs-btn-hover-bg: #7C9885;
+    --bs-btn-hover-border-color: #B5B682;
+
+}
+
+.btn {
+color: #4A4A4A;
+}
+
+strong {
+    color: #F8F9FAA6;
+    font-weight: 700;
+}
+
+:root, [data-bs-theme=light] {
+    --bs-body-color: #F8F9FAA6;
+}
