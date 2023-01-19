@@ -1,6 +1,6 @@
 .navbar-toggler {
 
-background-color: white !important;
+    background-color: white !important;
 
 
 }
@@ -16,8 +16,8 @@ background-color: white !important;
 }
 
 .bgc {
-background-color: #28666E;
-min-height: 10vh;
+    background-color: #28666E;
+    min-height: 10vh;
 }
 
 .footercolour {
@@ -26,8 +26,7 @@ min-height: 10vh;
     max-height: 5vh;
 }
 
-.titlefix
-{
+.titlefix {
 
     min-height: 0.1rem;
 }
@@ -42,7 +41,7 @@ min-height: 10vh;
 }
 
 .btn {
-color: #4A4A4A;
+    color: #4A4A4A;
 }
 
 strong {
@@ -50,6 +49,44 @@ strong {
     font-weight: 700;
 }
 
-:root, [data-bs-theme=light] {
+:root,
+[data-bs-theme=light] {
     --bs-body-color: #F8F9FAA6;
+}
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+
+.chins h3 {
+    font-weight: 300;
+    font-size: 26px;
+    margin-bottom: 5%;
+    
+  }
+
+  .paddings {
+
+    padding: 30px;
+  }
+
+  .headerthings
+  {
+
+        color: #F8F9FAA6;
+        font-size:50px;
+  }
+
+  .imgsizes{
+    width:  500px;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+
+.pt-lg-5 {
+    padding-top: 0rem!important;
 }
