@@ -85,6 +85,7 @@ body {
     height: 500px;
     object-fit: cover;
     padding-bottom: 30px;
+    border-radius: 30%;
 }
 
 .pt-lg-5 {
